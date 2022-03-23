@@ -75,53 +75,53 @@ background:red;
 }*/
 
 #coursImg1{
-    background:url("/Users/admin/myWorkspace/visualStudio/learnfree/images/webdev.jpeg");
+    background:url("webdev.jpeg");
 background-size:29.7vh;
 background-repeat: no-repeat;
 
 }
 
 #coursImg2{
-    background:url("/Users/admin/myWorkspace/visualStudio/learnfree/images/pythoncourse.jpeg");
+    background:url("pythoncourse.jpeg");
 background-size:29.7vh;
 background-repeat: no-repeat;
 
 }
 
 #coursImg3{
-    background:url("/Users/admin/myWorkspace/visualStudio/learnfree/images/mysql.jpeg");
+    background:url("mysql.jpeg");
 background-size:29.7vh;
 background-repeat: no-repeat;
 
 }
 
 #coursImg4{
-    background:url("/Users/admin/myWorkspace/visualStudio/learnfree/images/java.jpeg");
+    background:url("java.jpeg");
 background-size:29.7vh;
 background-repeat: no-repeat;
 
 }
 
 #coursImg5{
-    background:url("/Users/admin/myWorkspace/visualStudio/learnfree/images/ai-learning.jpeg");
+    background:url("ai-learning.jpeg");
 background-size:29.7vh;
 background-repeat: no-repeat;
 
 }
 #coursImg6{
-    background:url("/Users/admin/myWorkspace/visualStudio/learnfree/images/dataSience.jpeg");
+    background:url("dataSience.jpeg");
 background-size:29.7vh;
 background-repeat: no-repeat;
 
 }
 #coursImg7{
-    background:url("/Users/admin/myWorkspace/visualStudio/learnfree/images/cyberSecurity.jpeg");
+    background:url("cyberSecurity.jpeg");
 background-size:29.7vh;
 background-repeat: no-repeat;
 
 }
 #coursImg8{
-    background:url("/Users/admin/myWorkspace/visualStudio/learnfree/images/gameDev.jpeg");
+    background:url("gameDev.jpeg");
 background-size:29.7vh;
 background-repeat: no-repeat;
 
