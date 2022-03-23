@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>LearnFree</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Source Sans Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora&family=PT+Serif:ital@0;1&family=Raleway:wght@100&display=swap"
+        rel="stylesheet">
+    <link href="/Users/admin/myWorkspace/visualStudio/learnfree/css-files/learnfree.css" rel="stylesheet">
+    <link href="/Users/admin/myWorkspace/visualStudio/learnfree/css-files/headerBanner.css" rel="stylesheet">
+    <link href="/Users/admin/myWorkspace/visualStudio/learnfree/css-files/mainCourses.css" rel="stylesheet">
+    <link href="/Users/admin/myWorkspace/visualStudio/learnfree/css-files/footer.css" rel="stylesheet">
+
+    <title>This is website demo</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="header" id="headerFixed">
+        <div class="logoName">
+            <h1>Learn&Code</h1>
+        </div>
+        <div class="searchBar">
+            <input class="inputSearchBox" type="search" size="50" placeholder="what do you want to learn?">
+            <input class="searchButton" type="button" value="Search">
+        </div>
+        <div class="navBar">
+            <ul class="ulBar">
+                <li class="liText">Home</li>
+                <li class="liText">Courses</li>
+                <li class="liText">Contact</li>
+            </ul>
+        </div>
+
+<!--pop up login form-->
+        <div><input type="checkbox" id="show">
+            <label for="show" class="show-btn">Log In</label>
+
+            <div class="container">
+
+                <div class="pop">
+                    <label for="show" class="close-btn" title="close">&times;</label>
+
+                    <div class="text">
+                        Login Form
+                    </div>
+                    <form action="#">
+                        <div class="data">
+                            <label>Email or Phone</label>
+                            <input type="text" required>
+                        </div>
+                        <div class="data">
+                            <label>Password</label>
+                            <input type="password" required>
+                        </div>
+                        <div class="forgot-pass">
+                            <a href="#">Forgot Password?</a>
+                        </div>
+                        <div class="btn">
+                            <button type="submit">Log In</button>
+
+                        </div>
+                        <div class="signup-link">
+
+                            Not a member? <a href="#">Signup now</a>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+        <div><input type="checkbox" id="reg-show">
+            <label for="reg-show" class="reg-btn">Register</label>
+
+            <div class="container">
+
+                <div class="reg-pop">
+                    <label for="reg-show" class="close-btn" title="close">&times;</label>
+
+                    <div class="reg-text">
+                        Registration Form
+                    </div>
+                    <form action="#">
+                        <div class="data">
+                            <label>First name</label>
+                            <input type="text" required>
+                        </div>
+                        <div class="data">
+                            <label>Last name</label>
+                            <input type="text" required>
+                        </div>
+                        <div class="data">
+                            <label>Email</label>
+                            <input type="text" required>
+                        </div>
+                        <div class="data">
+                            <label>Mobile number</label>
+                            <input type="password" required>
+                        </div>
+                        <div class="data">
+                            <label>Password</label>
+                            <input type="password" required>
+                        </div>
+
+                        <div class="gender">
+
+                            <lable>Gender:</lable>
+                            <input type="radio" id="male" name="gender" value="male"> Male
+
+                             <input type="radio" id="female" name="gender" value="female"> Female
+                        
+                            <input type="radio" id="other" name="gender" value="other"> Other
+
+                        </div>
+                        <div class="register-btn">
+                            <button type="submit">Register</button>
+
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+    
+
+
+
+
+    <div class="headerBannerWraper">
+        <div class="bannerContainer1">
+            <h1 id="bannerText">Learn without limit</h1>
+            <p>Build new skills for that “this is my year” feeling with courses, certificates, and degrees from
+                world-class
+                universities and companies.</p>
+            <input id="loginbutton" type="submit" value="Login">
+            <input id="registerbutton" type="submit" value="Register">
+        </div>
+        <div class="bannerContainer2">
+
+            <img id="bannerImg" src="/Users/admin/myWorkspace/visualStudio/learnfree/images/webimg.png">
+        </div>
+
+    </div>
+
+
+    <div class="starightLine"></div>
+
+    <div class="mainCoursesBox">
+        <div class="courseImg">
+            <div class="courseBox" id="coursImg1">
+                <div class="courseHeading">
+                    <h3>FullStack Web Development</h1>
+                        <p>Web Development, HTML, Javascript, CSS, Node.JS, Angular</p>
+                </div>
+                <div class="courseInput"><input class="startLearning" type="button" value="Start Learning"></div>
+            </div>
+            <div class="courseBox" id="coursImg2">
+                <div class="courseHeading">
+                    <h3>Python Course for Beginners</h1>
+                        <p>Development, Python, Programming Languages, Data Science and AI ML, Python Testing</p>
+
+                </div>
+                <div class="courseInput"><input class="startLearning" type="button" value="Start Learning"></div>
+            </div>
+            <div class="courseBox" id="coursImg3">
+                <div class="courseHeading">
+                    <h3>MYSQL Course for Beginners</h1>
+                        <p>Get a Hands-On experience of MySQL</p>
+                </div>
+                <div class="courseInput"><input class="startLearning" type="button" value="Start Learning"></div>
+            </div>
+            <div class="courseBox" id="coursImg4">
+                <div class="courseHeading">
+                    <h3>JAVA Course for Beginners</h1>
+                        <p>Programming Languages, Object Oriented Programming, Java, Java Technologies, Spring
+                            Framework</p>
+                </div>
+                <div class="courseInput"><input class="startLearning" type="button" value="Start Learning"></div>
+            </div>
+            <div>
+                <div class="courseBox" id="coursImg5">
+                    <div class="courseHeading">
+                        <h3>Artificial Intelligence & Machine Learning</h1>
+                            <p> The ultimate guide to become an AI-ML Engineer</p>
+                    </div>
+                    <div class="courseInput"><input class="startLearning" type="button" value="Start Learning"></div>
+                </div>
+                <div class="courseBox" id="coursImg6">
+                    <div class="courseHeading">
+                        <h3>Data Science for Beginners</h1>
+                            <p> Hand-Picked courses & E-Books to become a Data Scientist</p>
+                    </div>
+                    <div class="courseInput"><input class="startLearning" type="button" value="Start Learning"></div>
+                </div>
+            </div>
+            <div class="courseBox" id="coursImg7">
+                <div class="courseHeading">
+                    <h3>Cyber Security</h1>
+                        <p> Get a Hands-On experience of Cyber Security with Specially Curated Courses & E-Books</p>
+                </div>
+                <div class="courseInput"><input class="startLearning" type="button" value="Start Learning"></div>
+            </div>
+        </div>
+        <div class="courseBox" id="coursImg8">
+            <div class="courseHeading">
+                <h3>Game Development</h1>
+                    <p>6 Handpicked courses and one E-book to enhance your Game Development kills</p>
+            </div>
+            <div class="courseInput"><input class="startLearning" type="button" value="Start Learning"></div>
+        </div>
+    </div>
+    <div class="footerMain">
+
+        <ul class="footerContainer">
+            <li class="LiTopHeading">LearnFree</li>
+            <li>About</li>
+            <li>Careers</li>
+            <li>Connect</li>
+            <li>News</li>
+
+        </ul>
+        <ul class="footerContainer">
+            <li class="LiTopHeading">Connect</li>
+            <li>Blog</li>
+            <li>Contact Us</li>
+            <li>Help Center</li>
+            <li>Media</li>
+        </ul>
+        <ul class="footerContainer">
+            <li class="LiTopHeading">Legal</li>
+            <li>Terms of Service</li>
+            <li>Privacy Policy</li>
+            <li>Trademark Policy</li>
+            <li>Sitemap</li>
+        </ul>
+        <div id="socialMedia">
+            <!-- Add font awesome icons -->
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <!--<a href="#" class="fa fa-youtube"></a>-->
+            <a href="#" class="fa fa-instagram"></a>
+            <!-- <a href="#" class="fa fa-pinterest"></a>-->
+        </div>
+        <footer> ©2022 Learn&Code Inc. All rights reserved.</footer>
+
+
+
+    </div>
+
+
+
+</body>
+
+</html>
